@@ -13,7 +13,13 @@ bot.start(ctx => {
 });
 
 bot.help(ctx => {
-    ctx.reply("Under Development!");
+    ctx.reply(`
+        /help - Helps you
+/botinfo - Gives bot information
+/channelinfo - Gives channel information of Technical Mechanism
+/latestvid - Provides the latest video link from Technical Mechanism
+/joke - Shares a joke
+    `);
 });
 
 // Commands
