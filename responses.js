@@ -7,7 +7,7 @@ Creation date: 22 Feb, 2023
 Developed by: @itzRudro07
 Language used: Node Js
 OS used: Windows 8.1 Pro
-Hosted on: null
+Hosted on: Railway
 Copyright status: no distribution
 Reserved by: Abhi
             `
