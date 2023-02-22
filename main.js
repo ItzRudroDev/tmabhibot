@@ -19,6 +19,7 @@ bot.help(ctx => {
 /channelinfo - Gives channel information of Technical Mechanism
 /latestvid - Provides the latest video link from Technical Mechanism
 /joke - Shares a joke
+/news - Gives latest update news from developer itzRudro
     `);
 });
 
@@ -70,6 +71,11 @@ bot.command('/joke', ctx => {
     }).catch(err => {
         console.error(err);
     });
+});
+
+//Updates
+bot.command('/news', ctx => {
+    ctx.reply("The next update will be available in 10th March, 2023. This Update will bring a lot of cool features. Till then stay tuned <3");
 });
 
 // Launching the bot
