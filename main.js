@@ -9,7 +9,7 @@ const ytApiKey = "AIzaSyCIITzJYoHA7OWwXSTUVtSNDvyZes0zuZY";
 const bot = new Telegraf(token);
 
 bot.start(ctx => {
-    ctx.reply("Technical Mechanism Bot is successfuly started. Use '/help' to get a list of all available commands");
+    ctx.reply("Technical Mechanism Bot is successfuly started. Use /help to get a list of all available commands");
 });
 
 bot.help(ctx => {
